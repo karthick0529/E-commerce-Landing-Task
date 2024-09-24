@@ -12,15 +12,15 @@ function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [cart, setCart] = useState([]);
 
-  // API base URL from environment variables
-  // const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-
+  // API base URL from environment variables or fallback to default
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
 
   useEffect(() => {
     axios.get(`${API_BASE_URL}/products`).then((response) => {
       setProducts(response.data);
       setFilteredProducts(response.data);
+    }).catch((error) => {
+      console.error('Error fetching products:', error);
     });
   }, [API_BASE_URL]);
 
@@ -30,7 +30,7 @@ function Home() {
   };
 
   const handleAddToCart = (product) => {
-    setCart([...cart, product]); // Add product to the cart
+    setCart((prevCart) => [...prevCart, product]);
   };
 
   const handleSearch = (event) => {
@@ -46,7 +46,10 @@ function Home() {
     if (category) {
       axios
         .get(`${API_BASE_URL}/products/category/${category}`)
-        .then((response) => setFilteredProducts(response.data));
+        .then((response) => setFilteredProducts(response.data))
+        .catch((error) => {
+          console.error('Error filtering by category:', error);
+        });
     } else {
       setFilteredProducts(products);
     }
