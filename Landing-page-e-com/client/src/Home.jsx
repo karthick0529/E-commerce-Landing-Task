@@ -13,7 +13,7 @@ function Home() {
   const [cart, setCart] = useState([]);
 
   // API base URL from environment variables or fallback to default
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+  const API_BASE_URL = 'https://landing-task-sz90.onrender.com' || 'http://localhost:5000/api';
 
   useEffect(() => {
     axios.get(`${API_BASE_URL}/products`).then((response) => {
