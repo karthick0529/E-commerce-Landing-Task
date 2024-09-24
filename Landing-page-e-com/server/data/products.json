@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Smartphone",
+      "description": "Latest model smartphone with 128GB storage.",
+      "price": 699,
+      "category": "electronics",
+      "image": "https://via.placeholder.com/200",
+      "quantity": 50
+    },
+    {
+      "title": "Laptop",
+      "description": "High-performance laptop for work and gaming.",
+      "price": 1200,
+      "category": "electronics",
+      "image": "https://via.placeholder.com/200",
+      "quantity": 30
+    },
+    {
+      "title": "Jeans",
+      "description": "Comfortable and stylish jeans for everyday wear.",
+      "price": 50,
+      "category": "clothing",
+      "image": "https://via.placeholder.com/200",
+      "quantity": 100
+    },
+    {
+      "title": "T-shirt",
+      "description": "Soft cotton t-shirt available in multiple colors.",
+      "price": 20,
+      "category": "clothing",
+      "image": "https://via.placeholder.com/200",
+      "quantity": 200
+    },
+    {
+      "title": "Refrigerator",
+      "description": "Energy-efficient refrigerator with freezer.",
+      "price": 800,
+      "category": "home appliances",
+      "image": "https://via.placeholder.com/200",
+      "quantity": 20
+    }
+  ]
+  
