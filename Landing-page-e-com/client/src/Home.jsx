@@ -12,12 +12,17 @@ function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [cart, setCart] = useState([]);
 
+  // API base URL from environment variables
+  // const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+
   useEffect(() => {
-    axios.get('http://localhost:5000/api/products').then((response) => {
+    axios.get(`${API_BASE_URL}/products`).then((response) => {
       setProducts(response.data);
       setFilteredProducts(response.data);
     });
-  }, []);
+  }, [API_BASE_URL]);
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
@@ -40,7 +45,7 @@ function Home() {
   const handleCategoryFilter = (category) => {
     if (category) {
       axios
-        .get(`http://localhost:5000/api/products/category/${category}`)
+        .get(`${API_BASE_URL}/products/category/${category}`)
         .then((response) => setFilteredProducts(response.data));
     } else {
       setFilteredProducts(products);
