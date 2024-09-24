@@ -1,43 +1,165 @@
-[
-    {
-      "title": "Smartphone",
-      "description": "Latest model smartphone with 128GB storage.",
-      "price": 699,
-      "category": "electronics",
-      "image": "https://via.placeholder.com/200",
-      "quantity": 50
-    },
-    {
-      "title": "Laptop",
-      "description": "High-performance laptop for work and gaming.",
-      "price": 1200,
-      "category": "electronics",
-      "image": "https://via.placeholder.com/200",
-      "quantity": 30
-    },
-    {
-      "title": "Jeans",
-      "description": "Comfortable and stylish jeans for everyday wear.",
-      "price": 50,
-      "category": "clothing",
-      "image": "https://via.placeholder.com/200",
-      "quantity": 100
-    },
-    {
-      "title": "T-shirt",
-      "description": "Soft cotton t-shirt available in multiple colors.",
-      "price": 20,
-      "category": "clothing",
-      "image": "https://via.placeholder.com/200",
-      "quantity": 200
-    },
-    {
-      "title": "Refrigerator",
-      "description": "Energy-efficient refrigerator with freezer.",
-      "price": 800,
-      "category": "home appliances",
-      "image": "https://via.placeholder.com/200",
-      "quantity": 20
-    }
-  ]
-  
+[{
+  "_id": {
+    "$oid": "66f176af65f95be5e7cca24a"
+  },
+  "title": "Smartphone",
+  "description": "Latest model smartphone with 128GB storage.",
+  "price": 699,
+  "category": "electronics",
+  "image": "https://c1.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2021/09/apple-iphone-13-pro-frandroid-2021.png?resize=170",
+  "quantity": 50
+},
+{
+  "_id": {
+    "$oid": "66f176af65f95be5e7cca24b"
+  },
+  "title": "Laptop",
+  "description": "High-performance laptop for work and gaming.",
+  "price": 1200,
+  "category": "electronics",
+  "image": "https://tse4.mm.bing.net/th?id=OIP.OU1CoSplSgGv9VpKxYneSAHaFc&pid=Api&P=0&h=180",
+  "quantity": 30
+},
+{
+  "_id": {
+    "$oid": "66f176af65f95be5e7cca24c"
+  },
+  "title": "Jeans",
+  "description": "Comfortable and stylish jeans for everyday wear.",
+  "price": 50,
+  "category": "clothing",
+  "image": "https://tse2.mm.bing.net/th?id=OIP.ivH9BvppiY6T_ZViHYAyQQHaJQ&pid=Api&P=0&h=180",
+  "quantity": 100
+},
+{
+  "_id": {
+    "$oid": "66f176af65f95be5e7cca24d"
+  },
+  "title": "T-shirt",
+  "description": "Soft cotton t-shirt available in multiple colors.",
+  "price": 20,
+  "category": "clothing",
+  "image": "https://tse3.mm.bing.net/th?id=OIP.RLGEOTBNCsd7_HUxGzPjjQHaIr&pid=Api&P=0&h=180",
+  "quantity": 200
+},
+{
+  "_id": {
+    "$oid": "66f176af65f95be5e7cca24e"
+  },
+  "title": "Refrigerator",
+  "description": "Energy-efficient refrigerator with freezer.",
+  "price": 800,
+  "category": "home appliances",
+  "image": "https://tse2.mm.bing.net/th?id=OIP.T2-BsB1FGOtakebzIzTE6gHaHa&pid=Api&P=0&h=180",
+  "quantity": 20
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca250"
+  },
+  "title": "Samsung Galaxy S21",
+  "image": "https://tse4.mm.bing.net/th?id=OIP.3iRYOSf6W5lk-EcweYMnAwAAAA&pid=Api&P=0&h=180",
+  "description": "Latest model of Samsung Galaxy series with 128GB storage.",
+  "price": 799,
+  "quantity": 50,
+  "category": "electronics"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca251"
+  },
+  "title": "Nike Mens Outfit",
+  "image": "https://i.pinimg.com/originals/0f/67/70/0f6770bdb530112f2eb3f7f12b54be07.jpg",
+  "description": "Comfortable and stylish mens sports Outfit for everyday use.",
+  "price": 150,
+  "quantity": 200,
+  "category": "clothing"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca252"
+  },
+  "title": "Sony Bravia 55-inch TV",
+  "image": "https://tse4.mm.bing.net/th?id=OIP.oBo6nTaDxkLGkiZJR8Zn9AHaEv&pid=Api&P=0&h=180",
+  "description": "Smart 4K Ultra HD LED TV with stunning visuals and Dolby Atmos sound.",
+  "price": 1200,
+  "quantity": 20,
+  "category": "electronics"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca253"
+  },
+  "title": "KitchenAid Stand Mixer",
+  "image": "https://tse3.mm.bing.net/th?id=OIP._VSwjQEs3jtvyEchig834gHaJA&pid=Api&P=0&h=180",
+  "description": "Versatile and durable kitchen mixer for baking and cooking.",
+  "price": 450,
+  "quantity": 35,
+  "category": "home appliances"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca254"
+  },
+  "title": "Apple MacBook Pro 16",
+  "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_big.jpg.large.jpg",
+  "description": "Apple's powerful laptop with M1 chip, 512GB SSD, and 16GB RAM.",
+  "price": 2399,
+  "quantity": 15,
+  "category": "electronics"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca255"
+  },
+  "title": "Adidas Men Classic t-shirt",
+  "image": "https://i5.walmartimages.com/asr/f87ff339-91da-4227-b819-cd1e6b58f75d_1.5b60283844a9ba814093d478fcf76ad9.jpeg",
+  "description": "Top-tier t-shirt with superior clothing and support.",
+  "price": 180,
+  "quantity": 100,
+  "category": "clothing"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca256"
+  },
+  "title": "Dyson V11 Vacuum Cleaner",
+  "image": "https://tse4.mm.bing.net/th?id=OIP.Rr4F1H9zzlhsONgKWELz7QHaEM&pid=Api&P=0&h=180",
+  "description": "High-performance cordless vacuum cleaner with powerful suction.",
+  "price": 700,
+  "quantity": 40,
+  "category": "home appliances"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca257"
+  },
+  "title": "Sony PlayStation 5",
+  "image": "https://wallup.net/wp-content/uploads/2017/11/17/285830-Sony-PlayStation.jpg",
+  "description": "The next-gen gaming console with ultra-fast SSD and 4K gaming.",
+  "price": 499,
+  "quantity": 60,
+  "category": "electronics"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca258"
+  },
+  "title": "Levi's 501 Original Jeans",
+  "image": "https://lsco.scene7.com/is/image/lsco/005013474-detail1-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=2000&hei=1852",
+  "description": "Iconic straight-leg jeans made from premium denim.",
+  "price": 90,
+  "quantity": 150,
+  "category": "clothing"
+},
+{
+  "_id": {
+    "$oid": "66f179cd65f95be5e7cca259"
+  },
+  "title": "LG InstaView Refrigerator",
+  "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6328/6328099ld.jpg",
+  "description": "Large capacity fridge with a sleek design and InstaView technology.",
+  "price": 2500,
+  "quantity": 10,
+  "category": "home appliances"
+}]
