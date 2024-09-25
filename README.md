@@ -1,6 +1,6 @@
-Front-End Deployment link: 
+Front-End Deployment link: https://super-shortbread-b43b41.netlify.app/
 
-Back-End Deployment link: 
+Back-End Deployment link: https://landing-task-sz90.onrender.com
 
 # E-commerce Landing Page
 
@@ -22,20 +22,20 @@ Filter products by category using route parameters.
 
 Get All Products
 
-Endpoint: GET /api/products
-
-Description: Fetches all products from the database.
+    Endpoint: GET /api/products
+    
+    Description: Fetches all products from the database.
 
 Search Products by Title
 
-Endpoint: GET /api/products/search?q=product
-
-Description: Searches for products by title. 
+    Endpoint: GET /api/products/search?q=product
+    
+    Description: Searches for products by title. 
 
 Filter Products by Category
 
-Endpoint: GET /api/products/category/:category
-
-Description: Fetches products based on the category specified in the URL parameter.
+    Endpoint: GET /api/products/category/:category
+    
+    Description: Fetches products based on the category specified in the URL parameter.
 
 
