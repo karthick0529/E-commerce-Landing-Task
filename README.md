@@ -1,6 +1,6 @@
-# Front-End Deployment link: 
+Front-End Deployment link: 
 
-# Back-End Deployment link: 
+Back-End Deployment link: 
 
 # E-commerce Landing Page
 
